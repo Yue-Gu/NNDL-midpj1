@@ -1,6 +1,6 @@
 from torch.utils.data import DataLoader
 from torchvision import datasets, transforms
-from argumentation.cutout import Cutout
+from augmentation.cutout import Cutout
 
 
 def get_training_dataloader(mean, std, batch_size=16, num_workers=4, shuffle=True, data="cifar100",
